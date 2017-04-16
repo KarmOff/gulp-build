@@ -7,7 +7,7 @@
 1) Генерация спрайтов из графических файлов
   Запуск: gulp sprite:pngif
   
-  Реализация: Используется плагин gulp.spritesmith [GitHub](https://github.com/twolfson/gulp.spritesmith), который берет исходники из   source/images/sprite и генерирует спрайт и файл стилей в build/assets/img/sprite/sprite.png и build/assets/img/sprite/sprite.css соответсвенно
+  Реализация: Используется плагин ```gulp.spritesmith``` [GitHub](https://github.com/twolfson/gulp.spritesmith), который берет исходники из   ```source/images/sprite``` и генерирует спрайт и файл стилей в ```build/assets/img/sprite/sprite.png``` и ```build/assets/img/sprite/sprite.css``` соответсвенно
 
 2) копирование файлов из папки с исходниками в папку для продакшена (картинки, шрифты)
   Запуск: gulp copy:media
