@@ -5,7 +5,7 @@
 Добавил к базовой сборке следующие таски:
 
 1) Генерация спрайтов из графических файлов
-Запуск: gulp sprite:gen
+Запуск: gulp sprite:pngif
 Реализация: Используется плагин gulp.spritesmithGitHub, который берет исходники из source/images/sprite и генерирует спрайт и файл стилей в build/assets/img/sprite/sprite.png и build/assets/img/sprite/sprite.css соответсвенно
 
 2) Копирование файлов из папки с исходниками в папку для продакшена (картинки, шрифты)
