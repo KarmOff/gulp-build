@@ -20,7 +20,7 @@ $.path.task.forEach(function(taskPath) {
 });
 
 $.gulp.task('default', $.gulp.series(
-
+  'clean',
   $.gulp.parallel(
     'sass',
     'pug',
@@ -29,8 +29,7 @@ $.gulp.task('default', $.gulp.series(
     'copy:fonts',
     'copy:image',
     'css:foundation',
-    'sprite:svg',
-    'sprite:pngif'
+    'sprite:svg'
   ),
   $.gulp.parallel(
     'watch',
